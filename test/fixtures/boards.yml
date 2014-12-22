@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  tag_list: MyString
+  status: MyString
+  is_private: false
+  is_searchable: false
+  uri: MyString
+  code: MyString
+
+two:
+  name: MyString
+  description: MyString
+  tag_list: MyString
+  status: MyString
+  is_private: false
+  is_searchable: false
+  uri: MyString
+  code: MyString
