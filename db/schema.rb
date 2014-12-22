@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20141222034043) do
 
-  create_table "board_agenda_items", force: true do |t|
+  create_table "board_agenda_items", force: :cascade do |t|
     t.string   "description"
     t.string   "status"
     t.integer  "position"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20141222034043) do
     t.datetime "updated_at"
   end
 
-  create_table "boards", force: true do |t|
+  create_table "boards", force: :cascade do |t|
     t.string   "name"
     t.string   "description"
     t.string   "tag_list"
